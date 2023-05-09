@@ -1,0 +1,43 @@
+@import './base.css';
+
+body {
+  background-attachment: scroll;
+  background-image: url(images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 550px;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+h2 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+h2:before, h2:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+}
+
+h2:before {
+  margin-right: 10px
+}
+
+h2:after {
+  margin-left: 10px
+}
+
+div.container {
+  background-color: white;
+  padding: 20px;
+}
